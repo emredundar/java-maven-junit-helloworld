@@ -39,7 +39,5 @@ public class Hello {
             printer.println(HELLO);
         }
 
-        String password5 = "1234";
-        String password1 = "1234";
     }
 }
