@@ -38,5 +38,6 @@ public class Hello {
         for (short i = 0; i < times; i++) {
             printer.println(HELLO);
         }
+        String password1 = "1234";
     }
 }
