@@ -38,7 +38,6 @@ public class Hello {
         for (short i = 0; i < times; i++) {
             printer.println(HELLO);
         }
-        // String password = "1234"; //sonarqube issue
     }
 
 }
