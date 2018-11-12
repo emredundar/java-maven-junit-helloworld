@@ -40,5 +40,6 @@ public class Hello {
         }
         String password1 = "1234";
         String password2 = "1234";
+        String password3 = "1234";
     }
 }
