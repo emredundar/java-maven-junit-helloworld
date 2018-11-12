@@ -40,4 +40,10 @@ public class Hello {
         }
     }
 
+    public void sayHelloDuplicate(PrintStream printer) {
+        for (short i = 0; i < times; i++) {
+            printer.println("hi");
+        }
+    }
+
 }
