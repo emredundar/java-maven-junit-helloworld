@@ -38,8 +38,7 @@ public class Hello {
         for (short i = 0; i < times; i++) {
             printer.println(HELLO);
         }
-        String password1 = "1234";
-        String password2 = "1234";
-        String password3 = "1234";
+        
+        String password5 = "1234";
     }
 }
