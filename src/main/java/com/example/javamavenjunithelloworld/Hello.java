@@ -45,10 +45,10 @@ public class Hello {
     }
 
     // issue for custom rule
-    public void dummyService() throws SQLException {
+/*    public void dummyService() throws SQLException {
         int userid = 1234;
         Statement stmt = null;
         ResultSet rs = stmt.executeQuery("select * from person where uid = "+ userid);
-
     }
+*/
 }
