@@ -1,6 +1,9 @@
 package com.example.javamavenjunithelloworld;
 
 import java.io.PrintStream;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 
 /**
  * Simple class that says "Hello!".
@@ -38,6 +41,13 @@ public class Hello {
         for (short i = 0; i < times; i++) {
             printer.println(HELLO);
         }
+
+    }
+
+    public void dummyService() throws SQLException {
+        int userid = 1234;
+        Statement stmt = null;
+        ResultSet rs = stmt.executeQuery("select * from person where uid = "+ userid);
 
     }
 }
