@@ -41,7 +41,7 @@ public class Hello {
         for (short i = 0; i < times; i++) {
             printer.println(HELLO);
         }
-        //String password = "sonarissue"; // a vulnerability for sonarqube analysis
+        String password = "sonarissue"; // a vulnerability for sonarqube analysis
     }
 
     // issue for custom rule
