@@ -43,7 +43,7 @@ public class Hello {
         }
     }
 
-    // issue for custom rule
+    // issue for custom rules
 /*    public void dummyService() throws SQLException {
         int userid = 1234;
         Statement stmt = null;
